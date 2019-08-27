@@ -9,6 +9,7 @@
     <link rel="stylesheet" href="https://stackpath.bootstrapcdn.com/bootstrap/4.3.1/css/bootstrap.min.css"
         integrity="sha384-ggOyR0iXCbMQv3Xipma34MD+dH/1fQ784/j6cY/iJTQUOhcWr7x9JvoRxT2MZw1T" crossorigin="anonymous">
     <link rel="stylesheet" type="text/css" href="style.css">
+    <link href="https://fonts.googleapis.com/css?family=Merriweather&display=swap" rel="stylesheet">
 </head>
 
 <body>
@@ -49,25 +50,35 @@
                 <div class="col-md-2">
                     <div id="infoContainer ml-2">
                         <div class="col-md-12">
-                            <div class="row">
-                                <img src=" http://placehold.jp/40x40.png">
-                                <p class="innerText">Greyson G-Y</p></img>
+                            <!-- <div class="row">
+
+                                <img src="0.jpg" height="40" width="40">
+                                <p class="innerText">Greyson G-Y</p>
+                                </img>
+                            </div> -->
+                            <div class="row mt-2">
+                                <img src="fbC2.png" height="40" width="40">
+                                <a href="https://www.facebook.com/profile.php?id=100011415572276" target="_blank">
+                                    <p class="innerText">Facebook</p></img>
+                                </a>
                             </div>
                             <div class="row mt-2">
-                                <img src=" http://placehold.jp/40x40.png">
-                                <p class="innerText">Facebook</p></img>
+                                <img src="liColor.png" width="40" height="40">
+                                <a href="https://www.linkedin.com/in/greyson-gerhard-young/" target="_blank">
+                                    <p class="innerText">LinkedIn</p>
+                                </a></img>
                             </div>
                             <div class="row mt-2">
-                                <img src=" http://placehold.jp/40x40.png">
-                                <p class="innerText">LinkedIn</p></img>
+                                <img src="portfolioSignature.png" width="40" height="40">
+                                <a href="https://greysongy.github.io/updatedPortfolio/" target="_blank">
+                                    <p class="innerText">Portfolio</p></img>
+                                </a>
                             </div>
                             <div class="row mt-2">
-                                <img src=" http://placehold.jp/40x40.png">
-                                <p class="innerText">Portfolio</p></img>
-                            </div>
-                            <div class="row mt-2">
-                                <img src=" http://placehold.jp/40x40.png">
-                                <p class="innerText">Github</p></img>
+                                <img src="gitLogo.png" height="40" width="40">
+                                <a href="https://github.com/greysongy" target="_blank">
+                                    <p class="innerText">Github</p></img>
+                                </a>
                             </div>
                         </div>
                     </div>
@@ -79,38 +90,112 @@
                             <div class="col-md-12">
                                 <div class="row mb-3">
                                     <div class="col-md-3">
-                                        <img class="storyCard" src="http://placehold.jp/140x250.png">
+                                        <div class="container d-flex justify-content-center">
+                                            <img class="storyCard" data-num="1" src="fbMobileProfile.PNG" width="140"
+                                                height="250"></img>
+                                            <p class="storyText">Why Facebook?</p>
+                                        </div>
                                     </div>
                                     <div class="col-md-3">
-                                        <img class="storyCard" src="http://placehold.jp/140x250.png">
+                                        <div class="container d-flex justify-content-center">
+                                            <img class="storyCard" data-num="2" src="dTreeCompressed.png">
+                                            <p class="storyText">AI/ML</p>
+                                        </div>
                                     </div>
                                     <div class="col-md-3">
-                                        <img class="storyCard" src="http://placehold.jp/140x250.png">
+                                        <div class="container d-flex justify-content-center">
+                                            <img class="storyCard" data-num="3" src="reactDark.jpg">
+                                            <p class="storyText">React</p>
+                                        </div>
                                     </div>
                                     <div class="col-md-3">
-                                        <img class="storyCard" src="http://placehold.jp/140x250.png">
+                                        <div class="container d-flex justify-content-center">
+                                            <img class="storyCard" data-num="4" src="fbGraph.jpg">
+                                            <p class="storyText">API Integration</p>
+                                        </div>
                                     </div>
                                 </div>
                             </div>
                         </div>
                         <div class="row ">
-                            <div class="post my-3">
-
+                            <div class="post my-3" id="post1">
+                                <p class="postHeader">Why Facebook?</p>
+                                <!-- <div class="row">
+                                    <div class="postContent">
+                                        <p>Some Text Here</p>
+                                    </div>
+                                </div> -->
+                                <p class="postContent">Some Content</p>
+                                <div class="postImages">
+                                    <div class="row d-flex justify-content-center mb-5 ml-2">
+                                        <div class="col-md-4">
+                                            <img src="http://placehold.jp/200x200.png">
+                                        </div>
+                                        <div class="col-md-4">
+                                            <img src="http://placehold.jp/200x200.png">
+                                        </div>
+                                        <div class="col-md-4">
+                                            <img src="http://placehold.jp/200x200.png">
+                                        </div>
+                                    </div>
+                                </div>
                             </div>
                         </div>
                         <div class="row">
-                            <div class="post my-3">
-
+                            <div class="post my-3" id="post2">
+                                <p class="postHeader">AI/ML</p>
+                                <p class="postContent">Some Content</p>
+                                <div class="postImages">
+                                    <div class="row d-flex justify-content-center mb-5 ml-2">
+                                        <div class="col-md-4">
+                                            <img src="http://placehold.jp/200x200.png">
+                                        </div>
+                                        <div class="col-md-4">
+                                            <img src="http://placehold.jp/200x200.png">
+                                        </div>
+                                        <div class="col-md-4">
+                                            <img src="http://placehold.jp/200x200.png">
+                                        </div>
+                                    </div>
+                                </div>
                             </div>
                         </div>
                         <div class="row">
-                            <div class="post my-3">
-
+                            <div class="post my-3" id="post3">
+                                <p class="postHeader">React</p>
+                                <p class="postContent">Some Content</p>
+                                <div class="postImages">
+                                    <div class="row d-flex justify-content-center mb-5 ml-2">
+                                        <div class="col-md-4">
+                                            <img src="http://placehold.jp/200x200.png">
+                                        </div>
+                                        <div class="col-md-4">
+                                            <img src="http://placehold.jp/200x200.png">
+                                        </div>
+                                        <div class="col-md-4">
+                                            <img src="http://placehold.jp/200x200.png">
+                                        </div>
+                                    </div>
+                                </div>
                             </div>
                         </div>
                         <div class="row">
-                            <div class="post my-3">
-
+                            <div class="post my-3" id="post4">
+                                <p class="postHeader">API Integration</p>
+                                <p class="postContent">Some Content</p>
+                                <div class="postImages">
+                                    <div class="row d-flex justify-content-center mb-5 ml-2">
+                                        <div class="col-md-4">
+                                            <img src="http://placehold.jp/200x200.png">
+                                        </div>
+                                        <div class="col-md-4">
+                                            <img src="http://placehold.jp/200x200.png">
+                                        </div>
+                                        <div class="col-md-4">
+                                            <img src="http://placehold.jp/200x200.png">
+                                        </div>
+                                    </div>
+                                </div>
                             </div>
                         </div>
                     </div>
@@ -262,6 +347,8 @@
             </div>
         </div>
     </div>
+    <script src="https://ajax.aspnetcdn.com/ajax/jQuery/jquery-3.4.1.min.js"></script>
+    <script src="helper.js"></script>
 </body>
 
 </html>

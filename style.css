@@ -40,11 +40,12 @@ body {
     border-radius: 25px;
     width: 140px;
     height: 250px;
+    filter: brightness(60%);
 }
 
 .post {
-    width: 680px;
-    height: 340px;
+    width: 740px;
+    /* height: 340px; */
     background-color: white;
 }
 
@@ -79,3 +80,25 @@ body {
     display: inline-block;
     background-color: green
   }
+
+  .postHeader {
+      color: #3b5998;
+      padding-left: 20px;
+      font-size: 20px;
+      margin-top: 20px;
+  }
+
+.storyText {
+    position: absolute;
+    bottom: 10px;
+    color: white;
+    font-family: 'Merriweather', serif;
+}
+
+.storyContainer {
+    text-align: center;
+}
+
+.postContent {
+    padding-left: 20px;
+}
