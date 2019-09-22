@@ -110,3 +110,7 @@ body {
     border-style: solid;
     border-width: 1px;
 }
+
+.wrapper {
+    margin-left: 40px;
+}
