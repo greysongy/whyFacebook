@@ -102,3 +102,9 @@ body {
 .postContent {
     padding-left: 20px;
 }
+
+.content {
+    border-color: black;
+    border-style: solid;
+    border-width: 1px;
+}
